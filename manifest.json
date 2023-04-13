@@ -23,6 +23,10 @@
 	"service_worker": "src/database.js"
     },
 
+    "externally_connectable": {
+        "matches": ["*://mail.google.com/*"]
+    },
+
     "content_scripts": [
         {
             "matches": [ "*://mail.google.com/*" ],
